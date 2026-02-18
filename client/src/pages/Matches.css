@@ -1,0 +1,76 @@
+.matches-container {
+  max-width: 1000px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+.matches-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.search-box {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 25px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.match-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  padding: 18px;
+  margin-bottom: 18px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.03);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.match-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.08);
+}
+
+.match-name {
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #111827; /* dark text */
+}
+
+
+.skills-section {
+  margin: 10px 0;
+}
+
+.skill-chip {
+  display: inline-block;
+  background-color: #eef2ff;
+  color: #333;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin: 4px 6px 4px 0;
+}
+
+.match-score {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #666;
+}
+
+.view-profile-btn {
+  margin-top: 14px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  background-color: #4f46e5;
+  color: white;
+  cursor: pointer;
+}
+
+.view-profile-btn:hover {
+  background-color: #4338ca;
+}
