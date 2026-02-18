@@ -294,3 +294,17 @@ body {
   }
 }
 
+/* =========================
+   TEMP FIX: HIDE NAVBAR ON MOBILE
+========================= */
+@media (max-width: 768px) {
+  .navbar {
+    display: none;
+  }
+
+  /* remove extra top space caused by navbar */
+  .page-container {
+    margin-top: 0;
+    padding-top: 24px;
+  }
+}
