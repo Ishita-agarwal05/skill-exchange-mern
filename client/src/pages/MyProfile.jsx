@@ -14,7 +14,7 @@ function MyProfile() {
     }
 
     axios
-      .get("http://localhost:5000/api/users/me", {
+      .get("https://skill-exchange-backend-buf6.onrender.com/api/users/me", {
         headers: { Authorization: token }
       })
       .then(res => setUser(res.data))

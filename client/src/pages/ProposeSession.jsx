@@ -24,7 +24,7 @@ function ProposeSession() {
 
     try {
       await axios.post(
-        "http://localhost:5000/api/sessions/create",
+        "https://skill-exchange-backend-buf6.onrender.com/api/sessions/create",
         {
           otherUserId: id,
           ...form

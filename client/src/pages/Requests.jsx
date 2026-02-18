@@ -17,7 +17,7 @@ function Requests() {
 
       try {
         const res = await axios.get(
-          "http://localhost:5000/api/connections/requests",
+          "https://skill-exchange-backend-buf6.onrender.com/api/connections/requests",
           {
             headers: { Authorization: token }
           }
@@ -37,7 +37,7 @@ function Requests() {
     const token = localStorage.getItem("token");
 
     await axios.post(
-      `http://localhost:5000/api/connections/accept/${id}`,
+      `https://skill-exchange-backend-buf6.onrender.com/api/connections/accept/${id}`,
       {},
       { headers: { Authorization: token } }
     );
@@ -49,7 +49,7 @@ function Requests() {
     const token = localStorage.getItem("token");
 
     await axios.post(
-      `http://localhost:5000/api/connections/reject/${id}`,
+      `https://skill-exchange-backend-buf6.onrender.com/api/connections/reject/${id}`,
       {},
       { headers: { Authorization: token } }
     );

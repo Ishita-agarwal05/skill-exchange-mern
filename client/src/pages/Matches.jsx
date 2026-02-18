@@ -20,7 +20,7 @@ function Matches() {
 
     try {
       await axios.post(
-        `http://localhost:5000/api/connections/send/${userId}`,
+        `https://skill-exchange-backend-buf6.onrender.com/api/connections/send/${userId}`,
         {},
         {
           headers: { Authorization: token }
@@ -53,7 +53,7 @@ function Matches() {
 
       try {
         const res = await axios.get(
-          "http://localhost:5000/api/match",
+          "https://skill-exchange-backend-buf6.onrender.com/api/match",
           {
             headers: { Authorization: token }
           }

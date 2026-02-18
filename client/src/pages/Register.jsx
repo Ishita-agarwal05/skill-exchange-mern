@@ -22,7 +22,7 @@ function Register() {
 
     try {
       await axios.post(
-        "http://localhost:5000/api/auth/register",
+        "https://skill-exchange-backend-buf6.onrender.com/api/auth/register",
         form
       );
       alert("Registration successful!");

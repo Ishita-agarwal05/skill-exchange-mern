@@ -21,7 +21,7 @@ function EditProfile() {
       }
 
       const res = await axios.get(
-        "http://localhost:5000/api/users/me",
+        "https://skill-exchange-backend-buf6.onrender.com/api/users/me",
         {
           headers: { Authorization: token }
         }
@@ -48,7 +48,7 @@ function EditProfile() {
     const token = localStorage.getItem("token");
 
     await axios.put(
-      "http://localhost:5000/api/users/me",
+      "https://skill-exchange-backend-buf6.onrender.com/api/users/me",
       form,
       {
         headers: { Authorization: token }

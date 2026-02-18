@@ -18,7 +18,7 @@ function Profile() {
 
     const fetchProfile = async () => {
       const res = await axios.get(
-        `http://localhost:5000/api/users/${id}`,
+        `https://skill-exchange-backend-buf6.onrender.com/api/users/${id}`,
         { headers: { Authorization: token } }
       );
       setUser(res.data);
@@ -26,7 +26,7 @@ function Profile() {
 
     const fetchCurrentUser = async () => {
       const res = await axios.get(
-        "http://localhost:5000/api/users/me",
+        "https://skill-exchange-backend-buf6.onrender.com/api/users/me",
         { headers: { Authorization: token } }
       );
       setCurrentUserId(res.data._id);

@@ -14,7 +14,7 @@ function MySessions() {
     }
 
     axios
-      .get("http://localhost:5000/api/sessions/my", {
+      .get("https://skill-exchange-backend-buf6.onrender.com/api/sessions/my", {
         headers: { Authorization: token }
       })
       .then(res => setSessions(res.data));
@@ -24,7 +24,7 @@ function MySessions() {
     const token = localStorage.getItem("token");
 
     await axios.post(
-      `http://localhost:5000/api/sessions/accept/${id}`,
+      `https://skill-exchange-backend-buf6.onrender.com/api/sessions/accept/${id}`,
       {},
       {
         headers: { Authorization: token }
