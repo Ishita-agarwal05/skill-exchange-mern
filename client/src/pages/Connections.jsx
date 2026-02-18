@@ -17,7 +17,7 @@ function Connections() {
 
       try {
         const res = await axios.get(
-          "http://localhost:5000/api/connections/list",
+          "https://skill-exchange-backend-buf6.onrender.com/api/connections/list",
           {
             headers: { Authorization: token }
           }
