@@ -1,21 +1,51 @@
-# SkillExchange
+# 🚀 SkillExchange
 
-A full-stack MERN application that helps users find study partners
-based on skill exchange.
+SkillExchange is a full-stack MERN application that connects users based on the skills they have and the skills they want to learn.
 
-## Tech Stack
-- React (Vite)
+It allows users to create accounts, find matching learning partners, send connection requests, and manage sessions securely using JWT authentication.
+
+---
+
+## 🌐 Live Demo
+
+🔗 https://skillexchange00.netlify.app
+
+---
+
+## 🛠 Tech Stack
+
+Frontend:
+- React.js (Vite)
+- CSS
+- Axios
+
+Backend:
 - Node.js
-- Express
-- MongoDB
+- Express.js
+- MongoDB Atlas
 - JWT Authentication
 
-## Features
-- User authentication
-- Profile creation
-- Skill-based matching
-- Connection requests
-- Contact sharing after connection
+Deployment:
+- Frontend → Netlify
+- Backend → Render
 
-## Status
-🚀 Full-stack deployment in progress
+---
+
+## ✨ Key Features
+
+- User Registration & Login
+- JWT-based Authentication
+- Skill-based Match Score System
+- Send & Manage Connection Requests
+- Dashboard & Profile Management
+- Protected Routing
+- Chat Feature (Coming Soon 🚧)
+
+---
+
+## 📌 Future Enhancements
+
+- Email verification
+- Password reset functionality
+- Google OAuth login
+- Real-time chat system
